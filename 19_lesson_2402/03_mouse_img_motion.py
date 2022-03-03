@@ -7,7 +7,7 @@ H = 640
 screen = pg.display.set_mode((W, H))  # 640pх - ширина и 480px - высота
 clock = pg.time.Clock()  # добавление задержки в главный цикл
 
-pg.mouse.set_visible(False)  # спрятать курсор мыши
+
 img = pg.image.load('cpu.png').convert_alpha()  # загружаю картинку из файла
 img_rect = img.get_rect()  # превращаю картинку в объект pygame
 img_rect.center = W // 2, H // 2  # выставляю центр изображения посередине экрана
