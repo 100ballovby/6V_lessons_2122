@@ -31,7 +31,7 @@ def x_angle(obj, col, leng, legs, x, y):
 
 t = Turtle()
 t.shape('turtle')
-
+t.speed(0)
 x_angle(t, 'DarkOliveGreen1', 100, 12, 100, 100)
 
 
