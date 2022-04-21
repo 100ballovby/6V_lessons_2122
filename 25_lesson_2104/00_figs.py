@@ -14,7 +14,13 @@ def lines(obj, lin):
 
 
 def cross(obj, len):
-
+    for i in range(4):
+        obj.fd(len)
+        obj.lt(90)
+        obj.fd(len)
+        obj.rt(90)
+        obj.fd(len)
+        obj.rt(90)
 
 
 t = Turtle()
